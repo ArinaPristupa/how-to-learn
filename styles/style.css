@@ -11,14 +11,14 @@
 
 .header {
   display: flex;
-    min-height: 600px;
-    max-height: 756px;
-    height: 100vh;
-    background:  #f2f2f2;
-    margin: 0;
-    box-sizing: border-box;
-    position: relative;
-    align-items: center;
+  min-height: 600px;
+  max-height: 756px;
+  height: 100vh;
+  background:  #f2f2f2;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  align-items: center;
   /* выше установили ограничения для секции */
 }
 
@@ -53,6 +53,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 4;
 }
 
 .header__link {
@@ -312,9 +313,9 @@
 }
 
 .footer__column_content_info {
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
 }
 
 .footer__column-heading {
