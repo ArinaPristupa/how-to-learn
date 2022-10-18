@@ -1,8 +1,8 @@
 .resources__link {
-  width: 270px;
-  height: 38px;
   text-align: center;
   transition: 1s; /* Время перехода */
+  width: 270px;
+  height: 38px;
 }
 
 .resources__link:hover {
